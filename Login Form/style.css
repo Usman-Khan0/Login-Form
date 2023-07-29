@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  background-image: linear-gradient(
+    to bottom right,
+    #6f42c1,
+    #e83e8c,
+    #e83e8c,
+    #6f42c1
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 95vh;
+}
+
+.whiteborder {
+  position: relative;
+  top: 10px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+  width: 650px;
+  height: 550px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-left: 280px;
+  margin-top: 80px;
+  border-radius: 50%;
+  transition: all .2s ease-in-out;
+}
+
+.loginname {
+  text-align: center;
+  transition: all .2s ease-in-out;
+  transition: 0.7s;
+}
+
+
+
+/* input{
+        width: 100px;
+ } */
+
+.form-control {
+  display: block;
+  width: 500px;
+  height: 37px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input {
+  margin-left: 60px;
+}
+
+.text {
+  text-align: center;
+  transition: 0.7s;
+  transition: all .2s ease-in-out;
+}
+
+a:hover{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+a{
+    transition: 0.7s;
+    margin-right: 410px;
+}
+
+button{
+    background-color: #01a0fc;
+    color: #fff;
+    border: 0;
+    height: 40px;
+    margin-top: 20px;
+    width: 525px;
+    margin-left: 60px;
+    transition: all .2s ease-in-out;
+    border-radius: 5%;
+}
+
+button{
+    box-shadow: 0px 0px 10px  #80d0ff;
+    
+}
+
+.btn{
+    cursor: pointer;
+}
+
+
+button:hover{
+    outline: auto;
+    background-color: rgb(216, 143, 8)
+}
+
+button:focus{
+    outline: auto;
+}
+
+button:active{
+    outline: auto;
+}
+
